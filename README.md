@@ -6,11 +6,15 @@ A CLI-based pride flag generator written in Rust.
 
 ![flags](https://user-images.githubusercontent.com/39676098/149643374-b69507cb-4617-43c8-9666-1ea5277c821e.png)
 
-## How to run
+## Install
 
 Build the project using `cargo`. Install `cargo` by following the Rustup install instructions [here](https://www.rust-lang.org/learn/get-started).
 
 ```cargo install --git https://github.com/angelofallars/prideful```
+
+## Usage
+
+To display a flag, run `prideful` with the flag of your choice. For example, `prideful classic`. To get the list of command-line options, run `prideful --help`. Run `prideful --list` to list available flags.
 
 ## Config
 
